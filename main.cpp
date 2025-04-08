@@ -3,7 +3,6 @@
 #include <iostream>
 #include <chrono>
 
-
 int main(int argc, char ** argv){
     int VIDEO_WIDTH = 32;
     int VIDEO_HEIGHT = 16;
@@ -13,7 +12,6 @@ int main(int argc, char ** argv){
         // std::cerr << "Usage: " << argv[0] << "< <Rom>\n";
         std::exit(EXIT_FAILURE);
     }
-
     int videoScale = std::stoi(argv[1]);
 	int cycleDelay = std::stoi(argv[2]);
 	char const* romFilename = argv[3];
